@@ -1,5 +1,3 @@
-from doctest import FAIL_FAST
-
 
 #Q1. Find which rooms are opened at the end when each customer enter into the building
 #and they change door state for their multiplicative room number upto 100
