@@ -3,6 +3,9 @@
 #and they change door state for their multiplicative room number upto 100
 
 
+from os import lseek
+
+
 def find_room_state():
     rooms = [False for i in range(100)]
     for i in range(100):
@@ -22,6 +25,11 @@ def find_room_state():
 
 
 # final_rooms = find_room_state()
+
+class Person:
+    def __init__(self,name):
+        self.name = name
+    
 
 
 #bracket symmetry checking 
